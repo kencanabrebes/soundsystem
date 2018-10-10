@@ -1,0 +1,38 @@
+{
+  "name": "KENCANA Sound System - Brebes",
+  "short_name": "KENCANA Sound System",
+  "start_url": "https://kencanabrebes.github.io/soundsystem/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#030406",
+  "description": "Jasa Penyewaan Sound System, Panggung, Lighting, Perlengkapan Hajatan Dan Pengantin - Brebes.",
+  "icons": [{
+    "src": "/KENCANA_Soundsystem-48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "/KENCANA_Soundsystem-72.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "/KENCANA_Soundsystem-96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "/KENCANA_Soundsystem-144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "/KENCANA_Soundsystem-168.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+    "src": "/KENCANA_Soundsystem-192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "/KENCANA_Soundsystem-512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
