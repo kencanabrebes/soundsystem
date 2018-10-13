@@ -109,10 +109,10 @@ header {max-width: 96px;padding: 10px;}
 .navi{margin: 0 5px 0 0;}
 .navi li a {font-size: 11px;padding:19px 5px 18px;}
   
-.navi .ngimput {display: inline-block;position: absolute;right: 15px;top: 5px;width: 40px;z-index: 9999;margin: 0 0;padding: 0 0;height: 40px;opacity: 0;cursor: pointer;}
+.navi input {display: inline-block;position: absolute;right: 15px;top: 5px;width: 40px;z-index: 9999;margin: 0 0;padding: 0 0;height: 40px;opacity: 0;cursor: pointer;}
 .navi span{background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z' fill='%235fb03d'/%3E%3C/svg%3E"); background-repeat: no-repeat;background-position: left center;background-size: 40px 40px;width: 40px;height: 40px;position: absolute;z-index: 999;top: 5px;right: 8px;}
-.navi .ngimput:checked ~ span {background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z' fill='%235fb03d'/%3E%3C/svg%3E");background-size: 34px 34px;right: 5px;}
-.navi .ngimput:checked ~ nav {display: block;}
+.navi input:checked ~ span {background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z' fill='%235fb03d'/%3E%3C/svg%3E");background-size: 34px 34px;right: 5px;}
+.navi input:checked ~ nav {display: block;}
 nav{top:50px;background: rgba(0, 0, 0, .8);display: none;height: 100%;position: fixed;width: 100%;left: 0;right: 0;margin: 0 auto;}
 nav ul{list-style:none;margin:0;padding:0;position: absolute;right: 0;height: calc(100vh - 50px);width: 234px;overflow-y:auto;}
   
@@ -150,7 +150,7 @@ footer {padding: 10px;}
 
 <div id='endas'>
 <header><a href='https://kencanabrebes.github.io/soundsystem/' title='KENCANA Sound System'><amp-img noloading='' src='https://kencanabrebes.github.io/soundsystem/header_kencanasoundsystem.png' width='160' height='50' layout='responsive'/></a></header>
-<div class='navi'><input class='ngimput' type='checkbox'></input><span></span><nav><ul>                                                       
+<div class='navi'><input type='checkbox'></input><span></span><nav><ul>                                                       
 <li><a href='#profil' title='Profil KENCANA Sound System'>Profil</a></li>
 <li><a href='#layanan' title='Layanan Kami'>Layanan</a></li>
 <li><a href='#phone' title='Hubungi Kami'>Telepon</a></li>
